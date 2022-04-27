@@ -1,3 +1,5 @@
+const Spiderman = require('../app/spiderman');
+
 describe("Unit Tests for spiderman class", () => {
     test("Create an spiderman object", () =>{
         //Código a utilizar

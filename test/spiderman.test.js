@@ -15,4 +15,9 @@ describe("Unit Tests for spiderman class", () => {
         expect(TobeyMcGuire.movies).toBe(2);
         expect(TobeyMcGuire.studio).toBe("Sony");
     });
+
+    test("Testing method getInfo()", () => {
+        const TobeyMcGuire = new Spiderman("Spiderman Marvel", 25, "Tom Holland", 5, "Marvel");
+        expect(TobeyMcGuire.getInfo()).toBe("Hey, I'm Tom Holland from Marvel Studio");;
+    });
 });

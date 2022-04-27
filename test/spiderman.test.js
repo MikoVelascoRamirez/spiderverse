@@ -10,9 +10,9 @@ describe("Unit Tests for spiderman class", () => {
 
         //Valido que el código funcione como espero
         expect(TobeyMcGuire.name).toBe("Spiderman original");
-        expect(TobeyMcGuire.age).toBe(46);
+        expect(TobeyMcGuire.age).toBe(40);
         expect(TobeyMcGuire.actor).toBe("Tobey Mc. Guire");
-        expect(TobeyMcGuire.movies).toBe(4);
+        expect(TobeyMcGuire.movies).toBe(2);
         expect(TobeyMcGuire.studio).toBe("Sony");
     });
 });
